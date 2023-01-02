@@ -25,8 +25,8 @@ ENV PATH="/usr/local/texlive/2022/bin/x86_64-linux:${PATH}"
 ENV DISPLAY=host.docker.internal:0.0
 
 # RUN chmod +x ./rendertex.sh
-RUN /bin/bash -c 'chmod +x ./rendertex.sh'
-ENTRYPOINT ["./rendertex.sh"]
+# RUN /bin/bash -c 'chmod +x ./rendertex.sh'
+# ENTRYPOINT ["./rendertex.sh"]
 
 
 # build locally and use interactively as:
